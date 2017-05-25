@@ -1,0 +1,24 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-EldikPractice.dll"
+/IGNORE:4221
+/NODEFAULTLIB:"LIBCMT"
+/NODEFAULTLIB:"LIBCPMT"
+/NODEFAULTLIB:"LIBCMTD"
+/NODEFAULTLIB:"LIBCPMTD"
+/NODEFAULTLIB:"MSVCRTD"
+/NODEFAULTLIB:"MSVCPRTD"
+/NODEFAULTLIB:"LIBC"
+/NODEFAULTLIB:"LIBCP"
+/NODEFAULTLIB:"LIBCD"
+/NODEFAULTLIB:"LIBCPD"
+"C:\Users\Eldakar\Documents\Unreal Projects\EldikPractice\Intermediate\Build\Win64\UE4Editor\Development\EldikPractice\PCH.EldikPractice.h.obj"
+"C:\Users\Eldakar\Documents\Unreal Projects\EldikPractice\Intermediate\Build\Win64\UE4Editor\Development\EldikPractice\EldikPractice.cpp.obj"
+"C:\Users\Eldakar\Documents\Unreal Projects\EldikPractice\Intermediate\Build\Win64\UE4Editor\Development\EldikPractice\EldikPracticeGameModeBase.cpp.obj"
+"C:\Users\Eldakar\Documents\Unreal Projects\EldikPractice\Intermediate\Build\Win64\UE4Editor\Development\EldikPractice\EldikPractice.generated.cpp.obj"
+"C:\Program Files\Epic Games\UE_4.15\Engine\Intermediate\Build\Win64\UE4Editor\Development\EldikPractice\PCLaunch.rc.res"
+"C:\Program Files\Epic Games\UE_4.15\Engine\Intermediate\Build\Win64\UE4Editor\Development\ModuleVersionResource.rc.inl.res"
+/OUT:"C:\Users\Eldakar\Documents\Unreal Projects\EldikPractice\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-EldikPractice.lib"
