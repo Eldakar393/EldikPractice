@@ -1,61 +1,58 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
+
 <Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
-  <ItemGroup>
-    <None Include="..\..\EldikPractice.uproject" />
-    <Filter Include="Source">
-      <UniqueIdentifier>{D114D07A-0C05-4CF4-9328-67FFD76A507C}</UniqueIdentifier>
-    </Filter>
-    <None Include="..\..\Source\EldikPractice.Target.cs">
-      <Filter>Source</Filter>
-    </None>
-    <None Include="..\..\Source\EldikPracticeEditor.Target.cs">
-      <Filter>Source</Filter>
-    </None>
-    <Filter Include="Config">
-      <UniqueIdentifier>{20CD1EAC-020F-4229-A62C-7FFBA8D003E8}</UniqueIdentifier>
-    </Filter>
-    <None Include="..\..\Config\DefaultEditor.ini">
-      <Filter>Config</Filter>
-    </None>
-    <None Include="..\..\Config\DefaultEngine.ini">
-      <Filter>Config</Filter>
-    </None>
-    <None Include="..\..\Config\DefaultGame.ini">
-      <Filter>Config</Filter>
-    </None>
-    <Filter Include="Source\EldikPractice">
-      <UniqueIdentifier>{24DAF500-0A12-44B9-8520-4F87F46E8335}</UniqueIdentifier>
-    </Filter>
-    <None Include="..\..\Source\EldikPractice\EldikPractice.Build.cs">
-      <Filter>Source\EldikPractice</Filter>
-    </None>
-    <ClCompile Include="..\..\Source\EldikPractice\EldikPractice.cpp">
-      <Filter>Source\EldikPractice</Filter>
-    </ClCompile>
-    <ClInclude Include="..\..\Source\EldikPractice\EldikPractice.h">
-      <Filter>Source\EldikPractice</Filter>
-    </ClInclude>
-    <ClCompile Include="..\..\Source\EldikPractice\EldikPracticeGameModeBase.cpp">
-      <Filter>Source\EldikPractice</Filter>
-    </ClCompile>
-    <ClInclude Include="..\..\Source\EldikPractice\EldikPracticeGameModeBase.h">
-      <Filter>Source\EldikPractice</Filter>
-    </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="..\..\Source\EldikPractice\MyClass1.h">
-      <Filter>Source\EldikPractice</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\Source\EldikPractice\UserProfile.h">
-      <Filter>Source\EldikPractice</Filter>
-    </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="..\..\Source\EldikPractice\MyClass1.cpp">
-      <Filter>Source\EldikPractice</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\Source\EldikPractice\UserProfile.cpp">
-      <Filter>Source\EldikPractice</Filter>
-    </ClCompile>
-  </ItemGroup>
+	<ItemGroup>
+		<None Include="..\..\EldikPractice.uproject" />
+		<Filter Include="Source">
+			<UniqueIdentifier>{62AA8C72-858F-4F45-A74B-785DC38BBBDD}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\EldikPractice.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<None Include="..\..\Source\EldikPracticeEditor.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<Filter Include="Config">
+			<UniqueIdentifier>{82ED03E3-BEB9-4103-883C-8F0263E0A2D5}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Config\DefaultEditor.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultEngine.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultGame.ini">
+			<Filter>Config</Filter>
+		</None >
+		<Filter Include="Source\EldikPractice">
+			<UniqueIdentifier>{838FE860-71AB-4AA8-B908-DC204DBE28D3}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\EldikPractice\EldikPractice.Build.cs">
+			<Filter>Source\EldikPractice</Filter>
+		</None >
+		<ClCompile Include="..\..\Source\EldikPractice\EldikPractice.cpp">
+			<Filter>Source\EldikPractice</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\EldikPractice\EldikPractice.h">
+			<Filter>Source\EldikPractice</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\EldikPractice\EldikPracticeGameModeBase.cpp">
+			<Filter>Source\EldikPractice</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\EldikPractice\EldikPracticeGameModeBase.h">
+			<Filter>Source\EldikPractice</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\EldikPractice\MyClass1.cpp">
+			<Filter>Source\EldikPractice</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\EldikPractice\MyClass1.h">
+			<Filter>Source\EldikPractice</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\EldikPractice\UserProfile.cpp">
+			<Filter>Source\EldikPractice</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\EldikPractice\UserProfile.h">
+			<Filter>Source\EldikPractice</Filter>
+		</ClInclude >
+	</ItemGroup>
 </Project>
