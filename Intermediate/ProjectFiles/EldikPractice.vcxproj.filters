@@ -46,9 +46,15 @@
     <ClInclude Include="..\..\Source\EldikPractice\MyClass1.h">
       <Filter>Source\EldikPractice</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\Source\EldikPractice\UserProfile.h">
+      <Filter>Source\EldikPractice</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\Source\EldikPractice\MyClass1.cpp">
+      <Filter>Source\EldikPractice</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\EldikPractice\UserProfile.cpp">
       <Filter>Source\EldikPractice</Filter>
     </ClCompile>
   </ItemGroup>

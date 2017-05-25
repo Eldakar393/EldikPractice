@@ -9,3 +9,6 @@
 #ifndef ELDIKPRACTICE_EldikPracticeGameModeBase_generated_h
 	#include "EldikPracticeGameModeBase.h"
 #endif
+#ifndef ELDIKPRACTICE_UserProfile_generated_h
+	#include "UserProfile.h"
+#endif

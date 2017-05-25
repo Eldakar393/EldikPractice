@@ -407,7 +407,9 @@
   </PropertyGroup>
   <ItemGroup>
     <ClCompile Include="..\..\Source\EldikPractice\MyClass1.cpp" />
+    <ClCompile Include="..\..\Source\EldikPractice\UserProfile.cpp" />
     <ClInclude Include="..\..\Source\EldikPractice\MyClass1.h" />
+    <ClInclude Include="..\..\Source\EldikPractice\UserProfile.h" />
     <None Include="..\..\EldikPractice.uproject" />
     <None Include="..\..\Source\EldikPractice.Target.cs" />
     <None Include="..\..\Source\EldikPracticeEditor.Target.cs" />
