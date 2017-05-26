@@ -18,7 +18,7 @@ void EmptyLinkFunctionForGeneratedCode1EldikPractice() {}
 	void UUserProfile::StaticRegisterNativesUUserProfile()
 	{
 	}
-	IMPLEMENT_CLASS(UUserProfile, 1708158327);
+	IMPLEMENT_CLASS(UUserProfile, 1277904932);
 #if USE_COMPILED_IN_NATIVES
 // Cross Module References
 	ENGINE_API class UClass* Z_Construct_UClass_AGameModeBase();
@@ -83,7 +83,9 @@ void EmptyLinkFunctionForGeneratedCode1EldikPractice() {}
 				OuterClass->StaticLink();
 #if WITH_METADATA
 				UMetaData* MetaData = OuterClass->GetOutermost()->GetMetaData();
+				MetaData->SetValue(OuterClass, TEXT("BlueprintType"), TEXT("true"));
 				MetaData->SetValue(OuterClass, TEXT("IncludePath"), TEXT("UserProfile.h"));
+				MetaData->SetValue(OuterClass, TEXT("IsBlueprintBase"), TEXT("true"));
 				MetaData->SetValue(OuterClass, TEXT("ModuleRelativePath"), TEXT("UserProfile.h"));
 #endif
 			}
@@ -101,7 +103,7 @@ void EmptyLinkFunctionForGeneratedCode1EldikPractice() {}
 			ReturnPackage = CastChecked<UPackage>(StaticFindObjectFast(UPackage::StaticClass(), NULL, FName(TEXT("/Script/EldikPractice")), false, false));
 			ReturnPackage->SetPackageFlags(PKG_CompiledIn | 0x00000000);
 			FGuid Guid;
-			Guid.A = 0xC46AA9A9;
+			Guid.A = 0x45E529F0;
 			Guid.B = 0x4C2EEF93;
 			Guid.C = 0x00000000;
 			Guid.D = 0x00000000;

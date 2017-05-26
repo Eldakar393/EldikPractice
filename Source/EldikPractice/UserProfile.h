@@ -8,7 +8,7 @@
 /**
  * 
  */
-UCLASS()
+UCLASS(Blueprintable)
 class ELDIKPRACTICE_API UUserProfile : public UObject
 {
 	GENERATED_BODY()
